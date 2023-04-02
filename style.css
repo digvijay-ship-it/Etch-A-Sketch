@@ -1,0 +1,13 @@
+body {
+    background-color: aquamarine;
+}
+
+#grids {
+    display: flex;
+}
+
+.atomGridElement {
+    height: 16px;
+    width: 16px;
+    background-color: white;
+}
