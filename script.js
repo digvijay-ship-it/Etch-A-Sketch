@@ -14,5 +14,12 @@ function gridMaker() {
         allGridRow.append(containerForGridRow);
     }
 }
+gridMaker();
+const allGridAtoms = document.querySelectorAll(".atomGridElement");
+allGridAtoms.forEach(atomGridElement => {
+    atomGridElement.addEventListener("mouseover", (Event) => {
+        atomGridElement.style.backgroundColor = "red";
+    });
+});
 
 gridMaker();
