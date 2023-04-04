@@ -6,8 +6,25 @@ body {
     display: flex;
 }
 
+#top {
+    margin: 20px 0px;
+}
+
 .atomGridElement {
     height: 16px;
     width: 16px;
     background-color: white;
+}
+
+#main {
+    display: flex;
+}
+
+#drawOptions {
+    display: flex;
+    flex-direction: column;
+}
+
+#drawOptions>* {
+    background-color: seagreen;
 }
