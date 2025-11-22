@@ -28,9 +28,8 @@ function gridMaker() {
 
 function draw() {
     const allGridAtoms = document.querySelectorAll(".atomGridElement");
-    console.log(allGridAtoms);
     allGridAtoms.forEach(atomGridElement => {
-        atomGridElement.addEventListener("mouseover", (Event) => {
+        atomGridElement.addEventListener("mouseover", () => {
             atomGridElement.style.backgroundColor = "red";
         });
     });
